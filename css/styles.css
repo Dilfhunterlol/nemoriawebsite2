@@ -139,9 +139,10 @@ a.white {
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
-	color: #6e57fb;
+	background-color: #4eaaff;
+	color: #2c2c2c;
 	text-decoration: none;
+	border: 0.125rem solid #4eaaff;
 }
 
 .btn-solid-lg .fab {
