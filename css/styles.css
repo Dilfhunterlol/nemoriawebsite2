@@ -311,7 +311,7 @@ select::-ms-expand {
 }
 
 .form-control-textarea {
-	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+	display: block; /* used to elimite a bottom gap difference between Chrome and IE/FF */
 	width: 100%;
 	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
 	padding-top: 1.25rem;
@@ -754,6 +754,11 @@ input[type='checkbox'] {
 	/*test*/
 }
 
+.news-text {
+	position: absolute;
+	left: 50%
+}
+
 .header .header-content {
 	padding-top: 8.5rem;
 	padding-bottom: 15rem;
@@ -910,6 +915,7 @@ input[type='checkbox'] {
 
 .tabs .card-title {
 	margin-bottom: 0.5rem;
+	
 }
 
 .tabs .card .card-icon {
